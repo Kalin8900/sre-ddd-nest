@@ -1,7 +1,7 @@
 export interface AcceptOfferDto {
-  offerId: string;
-  discountCode: string;
-  deliveryMethod: string;
-  city: string;
-  street: string;
+  readonly offerId: string;
+  readonly discountCode: string;
+  readonly deliveryMethod: string;
+  readonly city: string;
+  readonly street: string;
 }
